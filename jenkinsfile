@@ -4,4 +4,4 @@ pipeline {
           stage('validate'){
               steps {
                     sh 'mvn validate'
-    
+    }
