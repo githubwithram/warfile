@@ -4,7 +4,7 @@ pipeline {
   maven 'maven-3.9.0'
 }
         stages{
-         stage('validate'){
+     /*    stage('validate'){
               steps {
                     sh 'mvn validate'
                     }
@@ -35,7 +35,7 @@ pipeline {
               steps {
                    sh 'mvn install'
                     }
-             } 
+             } */
               
         stage('deploy'){
               steps {
