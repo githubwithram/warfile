@@ -38,7 +38,7 @@ pipeline {
              }
               stage('copy to tomcat'){
               steps {
-              sh 'scp -oStrictHostKeyChecking=no /var/lib/jenkins/workspace/pipelinepro/target/simpleweb.war ec2-user@35.77.217.231:/home/ec2-user/tomcat/apache-tomcat-11.0.0-M4/webapps/'
+              sh 'scp -oStrictHostKeyChecking=no /var/lib/jenkins/workspace/pipelinepro/target/simpleweb.war ec2-user@354.238.236.180:/home/ec2-user/tomcat/apache-tomcat-11.0.0-M4/webapps/'
               
              }
         }
